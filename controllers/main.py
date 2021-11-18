@@ -5,7 +5,7 @@
 import werkzeug.utils
 import uuid
 
-from odoo.addons.auth_oauth.controllers.main import OAuthLogin
+from openerp.addons.auth_oauth.controllers.main import OAuthLogin
 
 
 class OpenIDLogin(OAuthLogin):
